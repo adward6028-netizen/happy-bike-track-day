@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08090b">
+<meta name="description" content="HAPPY BIKE TRACK DAY — motorcycle track experiences and riding education in Thailand. Explore coaching, tracks and pricing. Contact us for information.">
+<title>HAPPY BIKE TRACK DAY | Ride. Learn. Experience.</title>
+<style>
+:root{--bg:#08090b;--panel:#111419;--panel2:#171c23;--line:#303640;--white:#f6f7f8;--muted:#aeb5c0;--red:#e3262e;--cyan:#36c8dc;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+body:before{content:"";position:fixed;inset:0;z-index:-1;opacity:.12;background:repeating-linear-gradient(135deg,#343942 0 1px,transparent 1px 20px)}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(5,6,8,.94);backdrop-filter:blur(12px);border-bottom:1px solid #252a32}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:1000;font-style:italic;letter-spacing:-.04em;font-size:21px;line-height:.95;display:flex;align-items:center;gap:10px}.brand b{color:var(--red)}.check{width:30px;height:30px;display:grid;grid-template-columns:1fr 1fr;gap:3px;transform:skew(-12deg)}.check i{background:#fff}.check i:nth-child(2),.check i:nth-child(3){background:transparent;border:1px solid #fff}
+nav{display:flex;gap:22px;font-size:13px;color:#d5d9df}nav a:hover{color:var(--cyan)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;background:var(--red);border:1px solid var(--red);font-weight:900;font-size:12px;letter-spacing:.06em;text-transform:uppercase}.nav-cta:hover,.btn:hover{background:#b91920}
+.hero{padding:74px 0 58px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 75% 45%,#292f38 0,#11151b 33%,#08090b 70%)}
+.hero:after{content:"";position:absolute;right:-100px;top:45px;width:55%;height:390px;border:24px solid rgba(227,38,46,.13);border-left-color:transparent;border-radius:48% 0 0 48%;transform:rotate(-17deg);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:38px;align-items:center;position:relative;z-index:1}
+.eyebrow{color:var(--cyan);font-size:11px;font-weight:900;letter-spacing:.2em;text-transform:uppercase}
+h1{font-size:clamp(45px,6.5vw,82px);line-height:.91;letter-spacing:-.055em;margin:17px 0 15px;font-weight:1000;font-style:italic}h1 span{color:var(--red)}.tagline{font-weight:900;letter-spacing:.13em;font-size:16px}.intro{color:#c2c8d1;font-size:17px;max-width:530px;margin:14px 0 24px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn.outline{background:transparent;border-color:#69717d}.btn.outline:hover{background:#20252d}.hero-side{min-height:350px;position:relative;display:flex;align-items:center;justify-content:center}
+.track-art{width:100%;height:300px;position:relative;overflow:hidden;border:1px solid #3c434e;background:linear-gradient(150deg,#171d25,#090b0e 72%);clip-path:polygon(8% 0,100% 0,92% 100%,0 100%)}
+.track-art:before{content:"";position:absolute;inset:42px -20px;border:34px solid #454b54;border-left-color:#e3262e;border-right-color:#e3262e;border-radius:48%;transform:rotate(-23deg);box-shadow:0 0 0 9px #15191f,0 0 0 11px #777}
+.track-art:after{content:"";position:absolute;inset:95px 65px;border:2px dashed rgba(255,255,255,.65);border-radius:50%;transform:rotate(-23deg)}
+.track-label{position:absolute;bottom:24px;left:30px;z-index:2;font-size:12px;font-weight:900;letter-spacing:.15em;color:#fff}
+.hero-stat{position:absolute;right:0;bottom:0;background:var(--red);padding:13px 18px;font-size:12px;font-weight:900;letter-spacing:.08em}
+.featurebar{border-top:1px solid #333943;border-bottom:1px solid #333943;background:#0f1217}.featuregrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:18px 0}.feature{font-size:13px;font-weight:800;display:flex;gap:10px;align-items:center}.feature span{color:var(--red);font-size:23px}
+section{padding:72px 0}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:28px}.sectionhead h2{font-size:clamp(30px,4vw,46px);line-height:1;margin:7px 0 0;font-style:italic;letter-spacing:-.035em}.sectionhead p{max-width:490px;color:var(--muted);font-size:14px;margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:23px;min-height:210px;position:relative;overflow:hidden}.card:after{content:"";position:absolute;width:100px;height:100px;border:12px solid rgba(227,38,46,.16);border-radius:50%;right:-40px;bottom:-50px}.num{color:var(--red);font-size:12px;font-weight:900;letter-spacing:.16em}.card h3{font-size:20px;margin:12px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0}.card .symbol{font-size:35px;color:#e9edf2;margin-top:22px}
+.programs{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);background:#101319}.program{padding:24px;border-right:1px solid var(--line)}.program:last-child{border:0}.level{display:inline-block;background:var(--red);padding:4px 10px;font-size:11px;font-weight:900;letter-spacing:.1em}.program h3{font-size:20px;margin:12px 0 7px}.program p{color:var(--muted);font-size:13px;margin:0}
+.real{background:#0e1116;border-top:1px solid #262c34;border-bottom:1px solid #262c34}.real-intro{color:var(--muted);max-width:760px;font-size:14px;margin:-12px 0 24px}.realgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.realfigure{margin:0;background:#171b22;border:1px solid #363d48}.realfigure img{width:100%;height:330px;object-fit:cover}.realfigure figcaption{padding:14px 16px;font-size:13px;font-weight:800}.realfigure figcaption small{display:block;color:var(--cyan);font-size:10px;letter-spacing:.13em;margin-bottom:5px}
+.postergrid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}.poster{background:#11151a;border:1px solid var(--line);padding:12px}.poster img{width:100%;height:auto}.poster p{font-size:12px;color:var(--muted);margin:10px 4px 2px}
+.contact{background:linear-gradient(120deg,#161a20,#090a0d);border-top:1px solid #353b45}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}.contact h2{font-size:clamp(32px,4vw,48px);font-style:italic;line-height:1;margin:10px 0 14px}.contact p{color:var(--muted);font-size:14px;max-width:470px}.contactinfo{display:grid;gap:10px;margin-top:20px;font-size:14px}.contactinfo b{color:var(--cyan);display:inline-block;min-width:90px;font-size:11px;letter-spacing:.1em}.qrrow{display:flex;gap:18px;flex-wrap:wrap}.qr{width:132px;background:#fff;padding:8px}.qr img{width:100%;height:auto}.qrlabel{text-align:center;color:#cbd0d8;font-size:12px;font-weight:800;margin-top:8px}.contactactions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+footer{padding:24px 0;color:#939ba7;font-size:11px;border-top:1px solid #252a32}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot strong{color:#fff}
+@media(max-width:850px){nav{gap:12px}.nav-cta{display:none}.hero-grid,.contactgrid{grid-template-columns:1fr}.hero-side{min-height:260px}.track-art{height:245px}.featuregrid{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr 1fr}.realgrid{grid-template-columns:1fr 1fr}.postergrid{grid-template-columns:1fr}}
+@media(max-width:580px){.wrap{width:calc(100% - 28px)}.nav{padding:12px 0;flex-wrap:wrap}.brand{font-size:17px}nav{order:3;width:100%;overflow:auto;white-space:nowrap;padding:5px 0}.hero{padding:48px 0}.hero-grid{gap:22px}h1{font-size:52px}.intro{font-size:15px}.hero-side{min-height:220px}.track-art{height:210px}.featuregrid{gap:12px}.feature{font-size:11px}.sectionhead{display:block}.sectionhead p{margin-top:14px}.cards,.programs,.realgrid{grid-template-columns:1fr}.program{border-right:0;border-bottom:1px solid var(--line)}.realfigure img{height:300px}section{padding:54px 0}.qr{width:112px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="check"><i></i><i></i><i></i><i></i></span><span>HAPPY BIKE<br><b>TRACK DAY</b></span></a>
+<nav><a href="#home">Home</a><a href="#experience">Experience</a><a href="#programs">Coaching</a><a href="#real-coaching">Real Coaching</a><a href="#tracks">Tracks</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></nav>
+<a class="nav-cta" href="#contact">Contact Us</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Motorcycle track experience · Thailand</div><h1>RIDE. <span>LEARN.</span><br>EXPERIENCE.</h1><div class="tagline">HAPPY BIKE TRACK DAY</div>
+<p class="intro">Discover motorcycle track riding in Thailand. Learn the fundamentals, practise on a real circuit, and build your riding confidence with guidance from experienced coaches.</p>
+<div class="hero-actions"><a class="btn" href="#contact">Ask us a question ↗</a><a class="btn outline" href="#experience">Explore the experience</a></div>
+</div>
+<div class="hero-side"><div class="track-art"><div class="track-label">YOUR NEXT TRACK EXPERIENCE STARTS HERE</div></div><div class="hero-stat">RIDE · LEARN · IMPROVE</div></div>
+</div></section>
+<div class="featurebar"><div class="wrap featuregrid"><div class="feature"><span>◉</span>Track riding experience</div><div class="feature"><span>✚</span>Coaching guidance</div><div class="feature"><span>⌁</span>Motorcycle rental options</div><div class="feature"><span>✓</span>Rider safety focus</div></div></div>
+
+<section id="experience"><div class="wrap">
+<div class="sectionhead"><div><div class="eyebrow">The experience</div><h2>MORE THAN JUST A RIDE.</h2></div><p>HAPPY BIKE TRACK DAY introduces riders to circuit riding through preparation, practical instruction and track practice. The exact programme depends on riding level, motorcycle category and circuit.</p></div>
+<div class="cards">
+<article class="card"><div class="num">01 / PREPARE</div><div class="symbol">◈</div><h3>Understand the basics</h3><p>Get familiar with the motorcycle, riding position, controls and the track-day environment before practice.</p></article>
+<article class="card"><div class="num">02 / LEARN</div><div class="symbol">⌁</div><h3>Build riding technique</h3><p>Learn core riding skills and understand how to approach circuit riding with clear, practical guidance.</p></article>
+<article class="card"><div class="num">03 / PRACTISE</div><div class="symbol">◉</div><h3>Experience the circuit</h3><p>Put your learning into practice on a circuit suited to the selected programme and your riding experience.</p></article>
+</div></div></section>
+
+<section id="programs"><div class="wrap">
+<div class="sectionhead"><div><div class="eyebrow">Coaching programmes</div><h2>FIND YOUR RIDING LEVEL.</h2></div><p>The supplied price menu identifies three programme levels. Contact the team for an explanation of the available options for your motorcycle category.</p></div>
+<div class="programs">
+<article class="program"><span class="level">LEVEL 1</span><h3>Basic Street Riding</h3><p>Basic street-riding programme. The supplied menu lists scooter coaching at 1,500 THB and manual-bike coaching at 2,000 THB.</p></article>
+<article class="program"><span class="level">LEVEL 2</span><h3>Track Riding</h3><p>Track-riding programme with motorcycle and circuit options shown in the official price menu.</p></article>
+<article class="program"><span class="level">LEVEL 3</span><h3>Track + Basic Coaching</h3><p>Track riding combined with basic coaching. Motorcycle and circuit rates are shown in the official price menu.</p></article>
+</div></div></section>
+
+<section class="real" id="real-coaching"><div class="wrap">
+<div class="sectionhead"><div><div class="eyebrow">Real track sessions</div><h2>REAL COACHING. REAL PRACTICE.</h2></div></div>
+<p class="real-intro">These are actual photos supplied by HAPPY BIKE TRACK DAY, showing how our coaching sessions look in practice — from the pit-area briefing to on-track guidance and riding exercises. These photos are presented as real examples, not stock advertising images.</p>
+<div class="realgrid">
+<figure class="realfigure"><img src="assets/coaching-briefing.jpg" alt="Actual coaching session: instructor briefing a rider beside a small motorcycle in the pit area"><figcaption><small>REAL SESSION / 01</small>Pre-ride briefing in the pit area</figcaption></figure>
+<figure class="realfigure"><img src="assets/coaching-guidance.jpg" alt="Actual coaching session: instructor giving guidance to a rider on the circuit"><figcaption><small>REAL SESSION / 02</small>Instructor guidance at the circuit</figcaption></figure>
+<figure class="realfigure"><img src="assets/coaching-practice.jpg" alt="Actual coaching session: rider practising a turn on the circuit"><figcaption><small>REAL SESSION / 03</small>Practical riding exercises</figcaption></figure>
+</div></div></section>
+
+<section id="tracks"><div class="wrap">
+<div class="sectionhead"><div><div class="eyebrow">Circuit information</div><h2>CHOOSE YOUR TRACK.</h2></div><p>Explore the three circuit options and their details in the original track-information graphic supplied by the team.</p></div>
+<div class="poster"><img src="assets/track-information.jpg" alt="Original HAPPY BIKE TRACK DAY track information graphic for Suvarnabhumi Motor Sport Park, Bira International Circuit and Nakhon Chai Si Circuit"><p>Track availability, operating days, minimum duration and additional charges should be confirmed directly with the team.</p></div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+<div class="sectionhead"><div><div class="eyebrow">Transparent programme information</div><h2>PRICE MENU.</h2></div><p>The original price menu supplied by HAPPY BIKE TRACK DAY is displayed below. Rates are in Thai baht (THB).</p></div>
+<div class="poster"><img src="assets/price-menu.png" alt="Original HAPPY BIKE TRACK DAY price menu showing Level 1, Level 2 and Level 3 rates by motorcycle category and circuit"><p>Please contact the team to confirm the current rates and any additional track, transportation or service fees.</p></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap contactgrid">
+<div><div class="eyebrow">Get in touch</div><h2>HAVE A QUESTION?<br>LET'S TALK.</h2><p>Want to learn more about motorcycle rental, coaching levels or track options? Contact our team directly. We will answer your questions and explain the available information.</p>
+<div class="contactinfo"><div><b>PHONE</b><a href="tel:+66623975437">062 397 5437</a></div><div><b>LOCATION</b><span>Sukhumvit 71, Bangkok, Thailand</span></div><div><b>BRAND</b><span>HAPPY BIKE TRACK DAY</span></div></div>
+<div class="contactactions"><a class="btn" href="https://wa.me/66623975437" target="_blank" rel="noopener">WhatsApp us ↗</a><a class="btn outline" href="tel:+66623975437">Call us</a></div>
+</div>
+<div class="qrrow">
+<div><a class="qr" href="assets/whatsapp-qr.jpg" target="_blank" rel="noopener"><img src="assets/whatsapp-qr.jpg" alt="WhatsApp contact QR code"></a><div class="qrlabel">WhatsApp</div></div>
+<div><a class="qr" href="assets/line-qr.jpg" target="_blank" rel="noopener"><img src="assets/line-qr.jpg" alt="LINE contact QR code"></a><div class="qrlabel">LINE</div></div>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>HAPPY BIKE TRACK DAY</strong> · RIDE. LEARN. EXPERIENCE.</div><div>Bangkok, Thailand · 062 397 5437</div><div>Information & enquiries only.</div></div></footer>
+</body></html>
